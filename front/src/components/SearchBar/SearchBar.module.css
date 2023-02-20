@@ -1,0 +1,90 @@
+
+ .container{
+  margin: 0 2rem 0 2rem ;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  
+} 
+
+.comun{  
+  margin: .5rem auto; 
+  background-color: #232323;
+  border-radius: .5rem;
+  border: 1px solid rgb(43, 199, 43);  
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase; 
+  min-width: 90%;
+  max-width: 100%;  
+}
+
+.inputType {     
+  height: 4rem;   
+  padding-left: 3rem;
+  outline: none;
+}
+
+.inputType:hover {     
+  border: 1px solid #672cee;;
+}
+
+.btnModerno{
+  padding: 8px 16px;  
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;  
+  text-decoration: none;
+  cursor: pointer;
+  border-left: 10px solid rgb(43, 199, 43); 
+}
+.btnModerno:hover{  
+  border-left: 10px solid #672cee;
+  box-shadow: 1px 1px 15px -4px #ffffffec;  
+}
+
+
+@media (min-width: 600px) {
+  .container{
+   flex-direction: row;
+   gap: 1rem;
+   width: 445px;
+  } 
+ 
+  
+  .btnModerno{
+    display: inline-block;
+    min-width: 100px;    
+  }  
+  .inputType {   
+    display: inline-block;
+    min-width: 100px; 
+  }
+  .display{
+    margin-left: 0    
+  }   
+  
+}
+
+
+
+
+
+
+
+
+.btnLogin{
+  background-color: rgb(43, 199, 43);
+  border: none;
+  border-radius: .5rem;   
+  color: white;
+  font-weight: 900;
+  padding: .5rem 1.5rem;
+  width: 100%;    
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.btnLogin:hover{
+cursor: pointer;
+box-shadow: 1px 1px 15px -4px #ffffffec; 
+}
