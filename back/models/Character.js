@@ -7,26 +7,24 @@ module.exports = (db)=>{
             allowNull:false,
             primaryKey: true,
             autoincrement: true,
-
         },
-
         name:{
             type: DataTypes.STRING,
             allowNull:false,
             unique:true
         },
-        
-        specie:{
+        status:{
+            type: DataTypes.ENUM('Alive', 'Dead', 'unknown'),
+            allowNull: false
+         },
+        species:{
             type: DataTypes.STRING,
             allowNull:false,   
            },
-
         gender:{
-         type: DataTypes.STRING,
-         allowNull:false,
-
+            type: DataTypes.ENUM('Female', 'Male', 'Genderless','unknown'),
+            allowNull: false
         },
-
         origin:{
             type: DataTypes.STRING,
             allowNull:false,
@@ -36,5 +34,6 @@ module.exports = (db)=>{
             allowNull:false,
         }
 
-    })
-}
+    }, {timestamps:false
+    });
+};

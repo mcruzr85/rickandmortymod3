@@ -10,7 +10,7 @@ db.sync({alter:true})
     console.log(`server running on port ${PORT}`)
   });
 })
-.catch(error =>{
+.catch(error => {
   console.log(error.message);
 })
 
