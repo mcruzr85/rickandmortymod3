@@ -2,9 +2,9 @@
 
 ## **📌 OBJETIVOS**
 
-Este proyecto es una Single Page Application creada utilizando las tecnologías: **React**, **Redux**, **Node** y **Express**. Para aplicar estilos a la SPA hemos usado **CSS Modules**.
+Este proyecto es una Single Page Application que permite mostrar los personajes de la serie Rick and Morty. Fue desarrollada utilizando las tecnologías: **React**, **Redux**, **Node** y **Express**. Para aplicar estilos a la SPA hemos usado **CSS Modules**.
 
-La aplicación web se conecta a la API [**Rick&Morty**]https://rickandmortyapi.com/), entre sus funcionalidades tenemos: 
+La aplicación web se conecta a la API <a href="https://rickandmortyapi.com/">[**Rick&Morty**]</a>, entre sus funcionalidades tenemos: 
 -  Buscar personajes y visualizarlos en el panel principal.
 -  Visualizar la información de los personajes.
 -  Filtrarlos.
