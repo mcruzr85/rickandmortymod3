@@ -1,35 +1,33 @@
-# HW 03: Proyecto del Bootcamp Soy Henry |Rick and Morty App
+# **💻 Rick & Morty App** | Proyecto Integrador del Bootcamp **Soy Henry**
+
+## **📌 OBJETIVOS**
+
+Este proyecto es una Single Page Application creada utilizando las tecnologías: **React**, **Redux**, **Node** y **Express**. Para aplicar estilos a la SPA hemos usado **CSS Modules**.
+
+La aplicación web se conecta a la API [**Rick&Morty**]https://rickandmortyapi.com/), entre sus funcionalidades tenemos: 
+-  Buscar personajes y visualizarlos en el panel principal.
+-  Visualizar la información de los personajes.
+-  Filtrarlos.
+-  Ordenarlos.
+-  Lista de Favoritos
+
+es una app responsive.
 
 
 
-## **💻 Rick & Morty App**
-
-### **📝 INTRO**
-
-En esta homework vamos a seguir trabajando en nuetra App de Rick & Morty del lado del servidor. En esta ocasión crearemos algunas rutas asincrónicas que nos permitirán darle mejor funcionamiento a nuestra aplicación.
-
-Crearemos una ruta para manejar las funcionalidades:
-
--  GET onSearch
--  GET Detail
--  GET favorites
--  POST favorites
--  DELETE favorites
 
 <br />
 
----
+## **📁 INSTRUCCIONES**
 
-## **📋 INSTRUCCIONES**
+ Pasos para poder levantar la App
 
+1- Tu primer paso será ejecutar el comando npm install para instalar todas las dependencias, tando en la carpeta /api como en la /client
+2- En una terminal tipear para que se levante el servidor local npm start en el back y luego en el front.
 
-
-## **🚨 A TENER EN CUENTA**
-
-Si tu servidor no está levantado, o si los links no fueron bien escritos, tu aplicación no funcionará correctamente.
-
-</br >
+Listo! Ya puedes jugar con los personajes de la serie Rick and Morty 🥳🥳🥳🥳💖✨💛🚀
 
 ---
 
-¡Hemos terminado por ahora!🥳
+<br />
+
